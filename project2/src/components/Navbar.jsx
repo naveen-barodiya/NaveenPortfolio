@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 import {Link} from "react-scroll";
 
 
+
 function Navbar() {
     const [menu,setMenu] = useState(false);
 
@@ -36,7 +37,7 @@ function Navbar() {
     <div  className='flex justify-between  items-center h-16'>
         <div className='flex space-x-2'>
             <img src={pic} className='h-12 w-12 rounded-full' alt="" />
-            <h1 className='font-semibold text-xl cursor-pointer'>Nav<span className='text-green-500 text-2xl'>ee</span>n<p className='text-sm'>Web Developer</p></h1>
+            <h1 className='font-semibold text-xl cursor-pointer'>The<span className='text-blue-500 text-2xl'>shya</span>m<p className='text-sm'>Web Developer</p></h1>
         </div>
         {/*desktop navbar */}
         <div>
